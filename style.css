@@ -108,7 +108,7 @@ nav button{
     background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
     box-shadow: 0.5px 0.5px 10px 1px rgba(0, 0, 0, 0.089);
 }
-.box .txt h2, .box .txt button {
+.box h2, .box p, .box .txt button {
     color: rgba(13, 19, 33, 0.7);
 }
 .box .txt button{
