@@ -13,6 +13,9 @@ body{
 }
 
 /*utilies css*/
+p{
+    line-height: 1.5;
+}
 button, input{
     background-color: transparent;
     border: none;
@@ -74,4 +77,152 @@ nav button{
     padding: 1.25rem 1.5rem;
     border-radius: .5rem;
     background-color: rgb(13, 19, 33);
+}
+
+/* code css */
+.code-section{
+    margin: 4.625rem 0 5.625rem;
+}
+.code-section .container{
+    
+    background-color: hsla(222, 43%, 9%, 0.02);
+    border-radius: 1rem;
+    padding: 80px 97px;
+}
+.contents{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.contents p{
+    margin: 1rem 0 2rem;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 3rem;
+    border-radius: 1rem;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+.box .txt h2, .box .txt button {
+    color: rgba(13, 19, 33, 0.7);
+}
+.box .txt button{
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding: 0.75rem 1.25rem;
+    border: 1px solid rgba(13, 19, 33, 0.7);
+}
+
+/* inspiration css */
+.inspiration-section{
+    margin: 5.625rem 0 9.375rem;
+}
+.video{
+    margin-top: 3rem;
+    padding: 1.25rem;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 1rem;
+}
+iframe{
+    border-radius: 1rem;
+}
+
+/* target-css */
+
+.c-target .intro-txt{
+    margin-bottom: 3rem;
+}
+.targets{
+    display: flex;
+    gap: 1.5rem;
+}
+.targets > div{
+    flex: 1;
+    padding: 2.5rem;
+    border-radius: 1rem;
+}
+.html{
+    background-color: rgba(255, 76, 30, 0.05);
+}
+.css{
+    background-color: rgba(0, 76, 232, 0.05);
+}
+.js{
+    background-color: rgba(255, 223, 0, 0.05);
+}
+.targets h3, .n-targets h3{
+    color: #0D1321;
+    font-weight: 800;
+}
+.targets p, .n-targets p{
+    color: #0D1321;
+    margin: 0.5rem 0 1.5rem;
+}
+.targets img{
+    margin-bottom: 1.5rem;
+}
+.targets a, .n-targets a{
+    color: #0D1321;
+    font-weight: 700;
+}
+.n-target{
+    margin-top: 7.5rem;
+}
+.n-targets{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.n-targets > div{
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    padding: 2.5rem;
+    border-radius: 1rem;
+}
+.react, .node, .mongo{
+    display: flex;
+    gap: 1.5rem;
+}
+
+/* support css */
+.support-section{
+    margin: 3.125rem 0 5rem;
+}
+.support-section .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1rem;
+    padding: 4rem 0;
+    background-image: url(./assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20rem;
+}
+.support-section .intro-txt h2, .support-section .intro-txt p{
+    color: #fff;
+}
+.support-section p{
+    margin: 2rem 190px;
+}
+#email{
+    padding: 1rem;
+    width: 34.25rem;
+    height: 3.25rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: white;
+}
+#submit{
+    width: 7.5rem;
+    height: 3.25rem;
+    color: #0D1321;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: white;
+    border-radius: 0.5rem;
 }
